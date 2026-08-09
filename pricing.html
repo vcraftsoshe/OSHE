@@ -17,6 +17,7 @@
   * { margin:0; padding:0; box-sizing:border-box; }
   html { scroll-behavior:smooth; }
   body { font-family:'DM Sans',sans-serif; background:var(--dark); color:var(--white); overflow-x:hidden; }
+
   nav { position:fixed; top:0; left:0; right:0; z-index:100; display:flex; align-items:center; justify-content:space-between; padding:1.5rem 4rem; background:rgba(0,48,43,0.92); backdrop-filter:blur(14px); border-bottom:1px solid rgba(0,212,170,0.12); }
   .nav-logo { display:flex; align-items:center; gap:1rem; text-decoration:none; }
   .nav-brand { font-family:'Space Mono',monospace; font-weight:700; font-size:1.1rem; display:flex; align-items:center; gap:0.5rem; }
@@ -28,6 +29,7 @@
   .nav-links a:hover { color:var(--teal); }
   .nav-cta { background:var(--teal); color:var(--dark)!important; padding:0.55rem 1.3rem; border-radius:6px; font-weight:700!important; }
   .nav-cta:hover { background:var(--teal-light)!important; color:var(--dark)!important; }
+
   .btn { display:inline-flex; align-items:center; gap:0.5rem; padding:0.85rem 1.8rem; border-radius:8px; font-family:'DM Sans',sans-serif; font-size:0.95rem; font-weight:700; cursor:pointer; text-decoration:none; border:none; transition:all 0.2s; }
   .btn-teal { background:var(--teal); color:var(--dark); }
   .btn-teal:hover { background:var(--teal-light); transform:translateY(-2px); }
@@ -35,6 +37,7 @@
   .btn-outline:hover { border-color:var(--teal); color:var(--teal); }
   .btn-harm { background:var(--harm-accent); color:#fff; }
   .btn-harm:hover { background:#4951ff; transform:translateY(-2px); }
+
   .hero { padding:10rem 4rem 5rem; position:relative; overflow:hidden; text-align:center; }
   .hero-bg { position:absolute; inset:0; background:radial-gradient(ellipse 70% 50% at 50% 60%,rgba(0,212,170,0.07) 0%,transparent 70%); }
   .hero > * { position:relative; z-index:1; }
@@ -42,8 +45,9 @@
   .hero h1 { font-size:clamp(2.4rem,5vw,4rem); font-weight:700; line-height:1.1; animation:fadeUp 0.7s 0.1s ease both; }
   .hero h1 .accent { color:var(--teal); }
   .hero p { font-size:1rem; color:rgba(245,250,249,0.55); max-width:480px; margin:1.2rem auto 0; line-height:1.8; font-weight:300; animation:fadeUp 0.7s 0.2s ease both; }
+
   .pricing-section { padding:4rem 4rem 5rem; }
-  .price-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; max-width:1000px; margin:0 auto; }
+  .price-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; max-width:1200px; margin:0 auto; }
   .pcard { border:1px solid rgba(0,212,170,0.12); border-radius:14px; padding:2.3rem; background:rgba(0,212,170,0.02); display:flex; flex-direction:column; transition:all 0.25s; position:relative; }
   .pcard:hover { border-color:rgba(0,212,170,0.28); transform:translateY(-4px); }
   .pcard.featured { border-color:var(--teal); background:rgba(0,212,170,0.05); }
@@ -62,9 +66,11 @@
   .pbtn:hover { background:rgba(0,212,170,0.08); }
   .pcard.featured .pbtn { background:var(--teal); color:var(--dark); border-color:var(--teal); }
   .pcard.featured .pbtn:hover { background:var(--teal-light); }
+
   .trial-banner { background:rgba(0,212,170,0.06); border:1px solid rgba(0,212,170,0.15); border-radius:12px; padding:1.5rem 2rem; max-width:1200px; margin:1.5rem auto 0; }
   .trial-banner p { font-size:0.88rem; color:rgba(245,250,249,0.6); line-height:1.6; font-weight:300; }
   .trial-banner p strong { color:var(--teal); font-weight:600; }
+
   .harm-section { padding:4rem; background:#001f1a; }
   .harm-section .stag { font-family:'Space Mono',monospace; font-size:0.65rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--harm-accent); display:block; margin-bottom:0.8rem; }
   .harm-section h2 { font-size:clamp(1.8rem,3vw,2.6rem); font-weight:700; margin-bottom:0.6rem; }
@@ -73,17 +79,20 @@
   .hc { border:1px solid rgba(46,55,254,0.15); border-radius:10px; padding:1.6rem; background:rgba(46,55,254,0.03); }
   .hc h4 { font-size:0.95rem; font-weight:700; color:var(--harm-accent); margin-bottom:0.4rem; }
   .hc p { font-size:0.83rem; color:rgba(245,250,249,0.5); line-height:1.65; font-weight:300; }
+
   .faq-section { padding:4rem; }
   .faq-section .stag { font-family:'Space Mono',monospace; font-size:0.65rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--teal); display:block; margin-bottom:0.8rem; }
   .faq-section h2 { font-size:clamp(1.5rem,2.5vw,2rem); font-weight:700; margin-bottom:2.5rem; }
   .faq-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; max-width:900px; }
   .faq-item h4 { font-size:0.93rem; font-weight:700; margin-bottom:0.4rem; color:var(--white); }
   .faq-item p { font-size:0.85rem; color:rgba(245,250,249,0.5); line-height:1.7; font-weight:300; }
+
   .cta-wrap { text-align:center; padding:5rem 4rem; background:#001f1a; }
   .cta-box { max-width:640px; margin:0 auto; background:linear-gradient(135deg,rgba(0,212,170,0.08),rgba(0,48,43,0.3)); border:1px solid rgba(0,212,170,0.2); border-radius:24px; padding:3rem; }
   .cta-box h2 { font-size:clamp(1.5rem,3vw,2.2rem); font-weight:700; margin-bottom:0.8rem; line-height:1.2; }
   .cta-box p { font-size:0.93rem; color:rgba(245,250,249,0.52); line-height:1.75; font-weight:300; margin-bottom:1.8rem; }
   .cta-acts { display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; }
+
   footer { background:#001a16; border-top:1px solid rgba(0,212,170,0.08); padding:2.8rem 4rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1.5rem; }
   .footer-logos { display:flex; align-items:center; gap:0.6rem; }
   .footer-logos span { font-family:'Space Mono',monospace; font-weight:700; font-size:1rem; }
@@ -93,6 +102,7 @@
   .flinks a { color:var(--grey); text-decoration:none; font-size:0.82rem; transition:color 0.2s; }
   .flinks a:hover { color:var(--teal); }
   .fcopy { font-size:0.74rem; color:rgba(138,168,162,0.45); text-align:right; line-height:1.6; }
+
   .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:0.5rem; background:none; border:none; }
   .hamburger span { width:24px; height:2px; background:var(--white); border-radius:2px; transition:all 0.3s; display:block; }
   .hamburger.open span:nth-child(1) { transform:rotate(45deg) translate(5px, 5px); }
@@ -123,7 +133,9 @@
   .success-msg { display:none; text-align:center; padding:1rem 0; }
   .success-msg h3 { font-size:1.3rem; font-weight:700; color:var(--teal); margin-bottom:0.5rem; }
   .success-msg p { font-size:0.88rem; color:rgba(245,250,249,0.5); line-height:1.6; }
+
   @keyframes fadeUp { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
+
   @media(max-width:900px) {
     nav { padding:1rem 1.5rem; }
     .nav-links { display:none; }
@@ -146,6 +158,7 @@
 </script>
 </head>
 <body>
+
 <!-- TRIAL POPUP -->
 <div class="overlay" id="trialOverlay">
   <div class="popup">
@@ -153,10 +166,11 @@
     <div style="font-family:'Space Mono',monospace;font-size:0.68rem;letter-spacing:0.22em;color:var(--teal);text-transform:uppercase;border:1px solid rgba(0,212,170,0.3);padding:0.38rem 1rem;border-radius:2px;margin-bottom:1rem;display:inline-block;">Free Trial</div>
     <h2>Let's get you started.</h2>
     <p class="popup-sub">Fill in your details and we'll send you everything you need within 12 hours.</p>
-    <form id="trialForm" action="https://formsubmit.co/ajax/info@oshe.co.nz" method="POST">
+    <form id="trialForm" action="https://formsubmit.co/ajax/vanessacraftsai@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Free Trial Request — OSHE">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_cc" value="Vanessa@oshe.co.nz,info@oshe.co.nz">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="form-row">
         <div class="form-field"><label>First Name</label><input type="text" name="First Name" placeholder="Jane" required><span class="field-required">Required</span></div>
@@ -173,6 +187,7 @@
     </div>
   </div>
 </div>
+
 <nav>
   <a href="index.html" class="nav-logo">
     <span class="nav-brand">
@@ -192,6 +207,7 @@
     <span></span><span></span><span></span>
   </button>
 </nav>
+
 <div class="mobile-menu" id="mobileMenu">
   <a href="oshe-features.html" onclick="toggleMenu()">OSHE Software</a>
   <a href="harm-services.html" onclick="toggleMenu()">HARM Consulting</a>
@@ -199,40 +215,42 @@
   <a href="team.html" onclick="toggleMenu()">Team</a>
   <a href="book.html" class="mobile-cta" onclick="toggleMenu()">Book Now</a>
 </div>
+
 <div class="hero">
   <div class="hero-bg"></div>
   <div class="ptag">OSHE Pricing</div>
   <h1>Simple pricing.<br><span class="accent">No surprises. No add-on costs.</span></h1>
-  <p>Start free for 7 days. No credit card needed. Cancel anytime. Additional consulting available at member rates.</p>
+  <p>Start free for 7 days. No credit card needed. Cancel anytime. HARM consulting is quoted separately.</p>
 </div>
+
 <div class="pricing-section">
   <div class="price-grid">
-    <div class="pcard">
+    <div class="pcard featured">
       <div class="pplan">Launch</div>
-      <div class="ptagline">Software plus support to get you set up properly</div>
-      <div class="pamt"><sup>$</sup>179</div>
+      <div class="ptagline">Perfect to get started</div>
+      <div class="pamt"><sup>$</sup>179<sup style="font-size:1rem;">+</sup></div>
       <div class="pper">per month + GST</div>
       <ul class="pfeats">
+        <li>Up to 10 users</li>
+        <li>Access to all <a href="oshe-features.html" style="color:var(--teal);text-decoration:underline;">features</a></li>
         <li>Customised OHSM policies and procedures</li>
-        <li>Free 1 hour onboarding</li>
-        <li>Quarterly 15 min check-in</li>
+        <li>Free 1 hour onboarding session</li>
+        <li>Quarterly 15 minute check-in</li>
         <li>Ongoing support and advice</li>
         <li>Incident investigation remote support</li>
-        <li>Member rates for consulting services — site reviews, Tōtika advisory services, and more</li>
-        <li>Access to all <a href="oshe-features.html" style="color:var(--teal);text-decoration:underline;">software features</a></li>
-        <li>Up to 10 users</li>
+        <li>Member rates on consulting services &mdash; site reviews, T&#333;tika advisory and more</li>
       </ul>
       <a href="https://calendly.com/oshenz" target="_blank" class="pbtn">Book a Demo</a>
     </div>
-    <div class="pcard featured">
+    <div class="pcard">
       <div class="pplan">Growth</div>
       <div class="ptagline">For businesses expanding their team and taking on more work</div>
-      <div class="pamt"><sup>$</sup>249</div>
+      <div class="pamt"><sup>$</sup>249<sup style="font-size:1rem;">+</sup></div>
       <div class="pper">per month + GST</div>
       <ul class="pfeats">
-        <li><a href="oshe-features.html" style="color:var(--teal);text-decoration:underline;">Everything</a> included from Launch</li>
         <li>Up to 20 users</li>
-        <li>Your logo displayed on all forms</li>
+        <li>All software <a href="oshe-features.html" style="color:var(--teal);text-decoration:underline;">features</a></li>
+        <li>Everything included from Launch</li>
       </ul>
       <a href="https://calendly.com/oshenz" target="_blank" class="pbtn">Book a Demo</a>
     </div>
@@ -249,14 +267,16 @@
       <a href="https://calendly.com/oshenz" target="_blank" class="pbtn">Talk to Vanessa</a>
     </div>
   </div>
-  <div class="trial-banner" style="margin-top:1.5rem;">
+
+  <div class="trial-banner" style="margin-top:2rem;">
     <p><strong>7-day free trial on all plans.</strong> Full access from day one. No credit card required. No lock-in. <a href="#" id="trialBannerLink" style="color:var(--teal);font-weight:600;text-decoration:underline;">Start your free trial</a> and we will send you your access within 12 hours.</p>
   </div>
 </div>
+
 <div class="harm-section">
   <span class="stag">HARM Consulting</span>
-  <h2>Need more than your plan covers?</h2>
-  <p>Members get preferential rates on extra consulting. Larger HARM engagements are scoped based on what you actually need — talk to Vanessa for a clear picture of what is involved and what it will cost.</p>
+  <h2>Consulting is quoted separately.</h2>
+  <p>HARM engagements are scoped and priced based on what you actually need. Talk to Vanessa to get a clear picture of what is involved and what it will cost.</p>
   <div class="harm-cards">
     <div class="hc">
       <h4>Audits and Reviews</h4>
@@ -275,6 +295,7 @@
     <a href="https://calendly.com/oshenz" target="_blank" class="btn btn-harm">Book a 1:1 with Vanessa</a>
   </div>
 </div>
+
 <div class="faq-section">
   <span class="stag">Common Questions</span>
   <h2>Good to know before you start.</h2>
@@ -297,7 +318,7 @@
     </div>
     <div class="faq-item">
       <h4>Is HARM consulting included in my OSHE subscription?</h4>
-      <p>Launch and Growth include customised OHSM policies and procedures, onboarding, quarterly check-ins, ongoing support and advice, and incident investigation remote support. Extra consulting such as site reviews and Tōtika advisory work is available at member rates.</p>
+      <p>No. HARM is a separate business and is quoted independently. Get in touch to discuss options.</p>
     </div>
     <div class="faq-item">
       <h4>How does Enterprise pricing work?</h4>
@@ -305,6 +326,7 @@
     </div>
   </div>
 </div>
+
 <div class="cta-wrap">
   <div class="cta-box">
     <h2>Ready to get started?</h2>
@@ -315,6 +337,7 @@
     </div>
   </div>
 </div>
+
 <footer>
   <div>
     <div class="footer-logos">
@@ -334,7 +357,7 @@
   </ul>
   <div style="display:flex;flex-direction:column;gap:0.35rem;">
     <a href="tel:0508664276" style="color:var(--grey);text-decoration:none;font-size:0.82rem;">0508 664 276</a>
-    <a href="mailto:info@oshe.co.nz" style="color:var(--grey);text-decoration:none;font-size:0.82rem;">info@oshe.co.nz</a>
+    <a href="/cdn-cgi/l/email-protection#86efe8e0e9c6e9f5eee3a8e5e9a8e8fc" style="color:var(--grey);text-decoration:none;font-size:0.82rem;"><span class="__cf_email__" data-cfemail="deb7b0b8b19eb1adb6bbf0bdb1f0b0a4">[email&#160;protected]</span></a>
     <span style="font-size:0.78rem;color:rgba(138,168,162,0.4);">24/32 Turiwhatu St, Papamoa, Tauranga</span>
   </div>
   <div style="display:flex;flex-direction:column;gap:0.5rem;">
@@ -346,13 +369,15 @@
     <span style="opacity:0.5;">oshe.co.nz &middot; harm.co.nz</span>
   </div>
 </footer>
-</body>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 <script>
   function toggleMenu() {
     document.getElementById('hamburger').classList.toggle('open');
     document.getElementById('mobileMenu').classList.toggle('open');
     document.body.style.overflow = document.getElementById('mobileMenu').classList.contains('open') ? 'hidden' : '';
   }
+
   function openTrialPopup() {
     document.getElementById('trialOverlay').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -364,14 +389,17 @@
   document.getElementById('trialOverlay').addEventListener('click', function(e) {
     if (e.target === this) closeTrialPopup();
   });
+
   document.getElementById('trialBannerLink').addEventListener('click', function(e) {
     e.preventDefault();
     openTrialPopup();
   });
+
   document.getElementById('ctaTrialBtn').addEventListener('click', function(e) {
     e.preventDefault();
     openTrialPopup();
   });
+
   const form = document.getElementById('trialForm');
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
