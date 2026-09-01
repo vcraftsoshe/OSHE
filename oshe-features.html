@@ -130,7 +130,8 @@
   .form-field input { background:rgba(0,212,170,0.05); border:1px solid rgba(0,212,170,0.18); border-radius:8px; padding:0.72rem 1rem; color:var(--white); font-family:'DM Sans',sans-serif; font-size:0.93rem; outline:none; transition:border-color 0.2s; }
   .form-field input:focus { border-color:rgba(0,212,170,0.5); }
   .form-field input::placeholder { color:rgba(245,250,249,0.25); }
-  .field-required { font-size:0.68rem; color:rgba(245,250,249,0.35); margin-top:0.2rem; } width:100%; padding:0.95rem; background:var(--teal); color:var(--dark); border:none; border-radius:8px; font-family:'DM Sans',sans-serif; font-size:1rem; font-weight:700; cursor:pointer; margin-top:0.4rem; transition:background 0.2s; }
+  .field-required { font-size:0.68rem; color:rgba(245,250,249,0.35); margin-top:0.2rem; }
+  .popup-submit { width:100%; padding:0.95rem; background:var(--teal); color:var(--dark); border:none; border-radius:8px; font-family:'DM Sans',sans-serif; font-size:1rem; font-weight:700; cursor:pointer; margin-top:0.4rem; transition:background 0.2s; }
   .popup-submit:hover { background:var(--teal-light); }
   .popup-note { font-size:0.75rem; color:rgba(245,250,249,0.3); text-align:center; margin-top:0.8rem; }
   .success-msg { display:none; text-align:center; padding:1rem 0; }
@@ -167,15 +168,15 @@
 </head>
 <body>
 
-<!-- TRIAL POPUP -->
+<!-- DEMO POPUP -->
 <div class="overlay" id="trialOverlay">
   <div class="popup">
     <button class="popup-close" onclick="closeTrialPopup()">&times;</button>
-    <div style="font-family:'Space Mono',monospace;font-size:0.68rem;letter-spacing:0.22em;color:var(--teal);text-transform:uppercase;border:1px solid rgba(0,212,170,0.3);padding:0.38rem 1rem;border-radius:2px;margin-bottom:1rem;display:inline-block;">Free Trial</div>
-    <h2>Let's get you started.</h2>
-    <p class="popup-sub">Fill in your details and we'll send you everything you need within 12 hours.</p>
+    <div style="font-family:'Space Mono',monospace;font-size:0.68rem;letter-spacing:0.22em;color:var(--teal);text-transform:uppercase;border:1px solid rgba(0,212,170,0.3);padding:0.38rem 1rem;border-radius:2px;margin-bottom:1rem;display:inline-block;">Free Demo</div>
+    <h2>Let's book your demo.</h2>
+    <p class="popup-sub">Fill in your details and we'll be in touch to set up a time within 12 hours.</p>
     <form id="trialForm" action="https://formsubmit.co/ajax/info@oshe.co.nz" method="POST">
-      <input type="hidden" name="_subject" value="New Free Trial Request — OSHE">
+      <input type="hidden" name="_subject" value="New Free Demo Request, OSHE">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
@@ -186,11 +187,11 @@
       <div class="form-field"><label>Email</label><input type="email" name="email" placeholder="jane@yourcompany.co.nz" required><span class="field-required">Required</span></div>
       <div class="form-field"><label>Phone</label><input type="tel" name="Phone" placeholder="021 000 0000" required><span class="field-required">Required</span></div>
       <div class="form-field"><label>Company Name</label><input type="text" name="Company" placeholder="Your company" required><span class="field-required">Required</span></div>
-      <button type="submit" class="popup-submit">Request My Free Trial</button>
+      <button type="submit" class="popup-submit">Request My Free Demo</button>
     </form>
     <div class="success-msg" id="successMsg">
-      <h3>You're on the list!</h3>
-      <p>Thanks for your interest. Vanessa or the team will be in touch within 12 hours with your trial details.</p>
+      <h3>Request received!</h3>
+      <p>Thanks for your interest. Vanessa or the team will be in touch within 12 hours to set up your demo.</p>
     </div>
   </div>
 </div>
@@ -231,7 +232,7 @@
       <h1>Every feature your site needs.<br><span class="accent">Built for the people doing the work.</span></h1>
     <p>Nine core features. One platform. Works on any device and simple enough that your whole team will use it from day one. (There is a lot more under the hood too.)</p>
     <div class="acts">
-      <a href="book.html" class="btn btn-teal">Start 7-Day Free Trial</a>
+      <a href="#" class="btn btn-teal js-open-demo">Book Free Demo</a>
       <a href="pricing.html" class="btn btn-outline">See Pricing</a>
     </div>
   </div>
@@ -430,11 +431,10 @@
 <div class="cta-wrap">
   <div class="cta-box">
     <span class="stag" style="display:block;text-align:center;margin-bottom:0.5rem;">Ready when you are</span>
-    <h2>Try all nine core features free for 7 days.</h2>
-    <p>No credit card. No lock-in. Fill in the form and get your access within 12 hours. If you want a guided walkthrough first, book a free demo.</p>
+    <h2>See all nine core features in a free demo.</h2>
+    <p>No obligation, no pressure. We'll walk you through the platform based on your business and answer any questions you have.</p>
     <div class="cta-acts">
-      <a href="book.html" class="btn btn-teal">Start Free Trial</a>
-      <a href="book.html" class="btn btn-outline">Request a Demo</a>
+      <a href="#" class="btn btn-teal js-open-demo">Book Free Demo</a>
       <a href="pricing.html" class="btn btn-outline">See Pricing</a>
     </div>
   </div>
@@ -467,8 +467,8 @@
     <a href="https://app.harm.co.nz/login" target="_blank" style="display:inline-flex;align-items:center;gap:0.5rem;background:var(--harm-accent);color:#fff;padding:0.6rem 1.2rem;border-radius:8px;font-weight:700;font-size:0.82rem;text-decoration:none;">Log in to HARM</a>
   </div>
   <div class="fcopy">
-    © 2026 OSHE and HARM. New Zealand.<br>
-    <span style="opacity:0.5;">oshe.co.nz · harm.co.nz</span>
+    &copy; 2026 OSHE and HARM. New Zealand.<br>
+    <span style="opacity:0.5;">oshe.co.nz &middot; harm.co.nz</span>
   </div>
 </footer>
 
@@ -479,11 +479,8 @@
     document.getElementById('mobileMenu').classList.toggle('open');
     document.body.style.overflow = document.getElementById('mobileMenu').classList.contains('open') ? 'hidden' : '';
   }
-  document.querySelectorAll('a.btn-teal').forEach(btn => {
-    if (btn.textContent.includes('Trial')) {
-      btn.href = '#';
-      btn.addEventListener('click', e => { e.preventDefault(); openTrialPopup(); });
-    }
+  document.querySelectorAll('.js-open-demo').forEach(btn => {
+    btn.addEventListener('click', e => { e.preventDefault(); openTrialPopup(); });
   });
   function openTrialPopup() {
     document.getElementById('trialOverlay').classList.add('open');
