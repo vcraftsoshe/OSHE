@@ -126,11 +126,9 @@
     <div style="font-family:'Space Mono',monospace;font-size:0.68rem;letter-spacing:0.22em;color:var(--teal);text-transform:uppercase;border:1px solid rgba(0,212,170,0.3);padding:0.38rem 1rem;border-radius:2px;margin-bottom:1rem;display:inline-block;">Free Trial</div>
     <h2>Let's get you started.</h2>
     <p class="popup-sub">Fill in your details and we'll send you everything you need within 12 hours.</p>
-    <form id="trialForm" action="https://formsubmit.co/ajax/info@oshe.co.nz" method="POST">
+    <form id="trialForm" action="https://formspree.io/f/xojkdkve" method="POST">
       <input type="hidden" name="_subject" value="New Free Trial Request — OSHE">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <input type="hidden" name="_next" value="https://oshe.co.nz/thank-you.html">
       <div class="form-row">
         <div class="form-field">
           <label for="fname">First Name</label>
@@ -180,6 +178,7 @@
     <li><a href="harm-services.html">HARM Consulting</a></li>
     <li><a href="pricing.html">Pricing</a></li>
     <li><a href="team.html">Team</a></li>
+    <li><a href="blog.html">Blog</a></li>
     <li><a href="book.html" class="nav-cta">Book Now</a></li>
   </ul>
   <button class="hamburger" id="hamburger" onclick="toggleMenu()">
@@ -193,6 +192,7 @@
   <a href="harm-services.html" onclick="toggleMenu()">HARM Consulting</a>
   <a href="pricing.html" onclick="toggleMenu()">Pricing</a>
   <a href="team.html" onclick="toggleMenu()">Team</a>
+  <a href="blog.html" onclick="toggleMenu()">Blog</a>
   <a href="book.html" class="mobile-cta" onclick="toggleMenu()">Book Now</a>
 </div>
 
@@ -301,8 +301,7 @@
         body: new FormData(form),
         headers: { 'Accept': 'application/json' }
       });
-      const data = await res.json().catch(function() { return {}; });
-      if (res.ok && data.success !== 'false' && data.success !== false) {
+      if (res.ok) {
         form.style.display = 'none';
         document.getElementById('successMsg').style.display = 'block';
       } else {
