@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Optional AI crawlers — confirm policy with owner (TBC)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://oshe.co.nz/sitemap.xml
