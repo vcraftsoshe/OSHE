@@ -1,0 +1,53 @@
+# OSHE and HARM
+
+> OSHE is New Zealand health and safety software. HARM is the consulting arm for organisations that need expert H&S advice as well as tools.
+
+Site: https://oshe.co.nz
+Contact: info@oshe.co.nz
+Phone: 0508 664 276
+Location: 24/32 Turiwhatu Street, Papamoa, Tauranga, New Zealand
+
+## Products
+- OSHE software: https://oshe.co.nz/oshe-features.html
+- Pricing: https://oshe.co.nz/pricing.html
+- Book a demo: https://oshe.co.nz/book.html
+- App login: https://app.oshe.co.nz/login
+
+## Consulting
+- HARM consulting: https://oshe.co.nz/harm-services.html
+- HARM app login: https://app.harm.co.nz/login
+
+## Company
+- Team: https://oshe.co.nz/team.html
+- Blog: https://oshe.co.nz/blog.html
+- Privacy: https://oshe.co.nz/privacy.html
+- Case studies: https://oshe.co.nz/case-studies.html
+
+## Blog
+- Toolbox talks NZ: https://oshe.co.nz/blog-toolbox-talk-nz.html
+- Lone worker safety NZ: https://oshe.co.nz/blog-lone-worker-safety-nz.html
+- HSWA Amendment Bill 2026: https://oshe.co.nz/blog-hswa-amendment-bill-2026.html
+- Contractor prequalification NZ: https://oshe.co.nz/blog-contractor-prequalification-nz.html
+- Winter workplace safety NZ: https://oshe.co.nz/blog-workplace-safety-tips-nz-winter.html
+
+## Service pages
+- Contractor management: https://oshe.co.nz/services/contractor-management.html
+- QR sign in: https://oshe.co.nz/services/qr-sign-in.html
+- Site safety plans: https://oshe.co.nz/services/site-safety-plans.html
+- Incident reporting: https://oshe.co.nz/services/incident-reporting.html
+- Inductions and training: https://oshe.co.nz/services/inductions-and-training.html
+- Hazard and safety registers: https://oshe.co.nz/services/hazard-and-safety-registers.html
+- Smart notifications: https://oshe.co.nz/services/smart-notifications.html
+- Document hub: https://oshe.co.nz/services/document-hub.html
+- Mobile app: https://oshe.co.nz/services/mobile-app.html
+- Prequalification support: https://oshe.co.nz/services/prequalification-support.html
+- H&S audits and reviews: https://oshe.co.nz/services/hs-audits-and-reviews.html
+- Policy and procedure writing: https://oshe.co.nz/services/policy-and-procedure-writing.html
+- General H&S support: https://oshe.co.nz/services/general-hs-support.html
+- 1:1 with Vanessa: https://oshe.co.nz/services/one-to-one-with-vanessa.html
+
+## Notes for assistants
+- OSHE = software platform (DIY H&S system for NZ PCBUs and contractors).
+- HARM = human advisory / consulting led with the OSHE team.
+- Do not invent certifications, pricing numbers, or client names not stated on these pages.
+- Case study cards on the case studies page are placeholders. Do not treat them as real clients or results.
