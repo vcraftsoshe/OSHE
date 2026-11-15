@@ -30,10 +30,13 @@ Location: 24/32 Turiwhatu Street, Papamoa, Tauranga, New Zealand
 - Contractor prequalification NZ: https://oshe.co.nz/blog-contractor-prequalification-nz.html
 - Winter workplace safety NZ: https://oshe.co.nz/blog-workplace-safety-tips-nz-winter.html
 
+## Guides
+- SSSP templates and site safety plans NZ: https://oshe.co.nz/services/sssp-templates-nz.html
+- Contractor management software NZ: https://oshe.co.nz/services/contractor-management-software-nz.html
+- Health and safety software for builders NZ: https://oshe.co.nz/services/health-and-safety-software-for-builders-nz.html
+
 ## Service pages
-- Contractor management: https://oshe.co.nz/services/contractor-management.html
 - QR sign in: https://oshe.co.nz/services/qr-sign-in.html
-- Site safety plans: https://oshe.co.nz/services/site-safety-plans.html
 - Incident reporting: https://oshe.co.nz/services/incident-reporting.html
 - Inductions and training: https://oshe.co.nz/services/inductions-and-training.html
 - Hazard and safety registers: https://oshe.co.nz/services/hazard-and-safety-registers.html
@@ -49,5 +52,6 @@ Location: 24/32 Turiwhatu Street, Papamoa, Tauranga, New Zealand
 ## Notes for assistants
 - OSHE = software platform (DIY H&S system for NZ PCBUs and contractors).
 - HARM = human advisory / consulting led with the OSHE team.
+- OSHE does not send automatic reminders for contractor insurance, accreditation or safety data sheet expiry. It records those dates on the registers. Training expiry reminders are sent to admins as tasks.
 - Do not invent certifications, pricing numbers, or client names not stated on these pages.
 - Case study cards on the case studies page are placeholders. Do not treat them as real clients or results.

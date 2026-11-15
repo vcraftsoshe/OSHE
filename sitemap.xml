@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://oshe.co.nz/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://oshe.co.nz/magnetize.html</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://oshe.co.nz/oshe-features.html</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://oshe.co.nz/pricing.html</loc>
@@ -54,10 +54,6 @@
   </url>
   <url>
     <loc>https://oshe.co.nz/privacy.html</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://oshe.co.nz/services/contractor-management.html</loc>
     <lastmod>2026-11-09</lastmod>
   </url>
   <url>
@@ -105,15 +101,23 @@
     <lastmod>2026-11-09</lastmod>
   </url>
   <url>
-    <loc>https://oshe.co.nz/services/site-safety-plans.html</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
     <loc>https://oshe.co.nz/services/smart-notifications.html</loc>
     <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://oshe.co.nz/team.html</loc>
     <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://oshe.co.nz/services/sssp-templates-nz.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://oshe.co.nz/services/contractor-management-software-nz.html</loc>
+    <lastmod>2026-11-16</lastmod>
+  </url>
+  <url>
+    <loc>https://oshe.co.nz/services/health-and-safety-software-for-builders-nz.html</loc>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>

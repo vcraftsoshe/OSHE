@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OSHE & HARM — Health and Safety. Done Properly.</title>
+<title>Health and Safety Software NZ | OSHE &amp; HARM</title>
 <link rel="canonical" href="https://oshe.co.nz/">
-<meta name="description" content="OSHE is health and safety software built for New Zealand workplaces. HARM is expert H&amp;S consulting when you need a human in your corner. Book a free demo.">
+<meta name="description" content="Health and safety software NZ businesses run themselves: contractor management, site sign-in, inductions and incidents. Plus HARM expert H&amp;S consulting.">
 <meta property="og:locale" content="en_NZ">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OSHE &amp; HARM — Health and Safety. Done Properly.">
+<meta name="twitter:title" content="Health and Safety Software NZ | OSHE &amp; HARM">
 <meta name="twitter:description" content="OSHE is a DIY H&amp;S platform you can run yourself. HARM is for when you need an expert in your corner.">
 <meta name="twitter:image" content="https://oshe.co.nz/images/og-default.jpg">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
 <!-- Open Graph -->
-<meta property="og:title" content="OSHE & HARM — Health and Safety. Done Properly.">
+<meta property="og:title" content="Health and Safety Software NZ | OSHE &amp; HARM">
 <meta property="og:description" content="OSHE is a DIY H&S platform you can run yourself. HARM is for when you need an expert in your corner.">
 <meta property="og:image" content="https://oshe.co.nz/images/og-default.jpg">
 <meta property="og:url" content="https://oshe.co.nz/">
@@ -73,9 +73,9 @@
   .hero-bg { position:absolute; inset:0; background:radial-gradient(ellipse 80% 60% at 70% 50%,rgba(0,212,170,0.07) 0%,transparent 70%); }
   .hero-grid { position:absolute; inset:0; background-image:linear-gradient(rgba(0,212,170,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,170,0.03) 1px,transparent 1px); background-size:60px 60px; }
   .hero > * { position:relative; z-index:1; }
-  .hero-tag { font-family:'Space Mono',monospace; font-size:0.68rem; letter-spacing:0.22em; color:var(--teal); text-transform:uppercase; border:1px solid rgba(0,212,170,0.3); padding:0.38rem 1rem; border-radius:2px; margin-bottom:2rem; display:inline-block; animation:fadeUp 0.6s ease both; }
-  .hero h1 { font-size:clamp(3.2rem,8.5vw,9rem); font-weight:700; line-height:0.95; max-width:100%; animation:fadeUp 0.7s 0.1s ease both; }
-  .hero h1 .accent { color:var(--teal); }
+  .hero-tag { font-family:'Space Mono',monospace; font-size:0.68rem; letter-spacing:0.22em; color:var(--teal); text-transform:uppercase; border:1px solid rgba(0,212,170,0.3); padding:0.38rem 1rem; border-radius:2px; margin-bottom:2rem; display:inline-block; font-weight:400; animation:fadeUp 0.6s ease both; }
+  .hero .hero-headline { font-size:clamp(3.2rem,8.5vw,9rem); font-weight:700; line-height:0.95; max-width:100%; animation:fadeUp 0.7s 0.1s ease both; }
+  .hero .hero-headline .accent { color:var(--teal); }
   .hero-sub { font-size:1.1rem; color:rgba(245,250,249,0.62); max-width:520px; line-height:1.8; margin-top:1.8rem; font-weight:300; animation:fadeUp 0.7s 0.2s ease both; }
   .hero-actions { display:flex; gap:1rem; margin-top:2.5rem; flex-wrap:wrap; animation:fadeUp 0.7s 0.3s ease both; }
   .hero-stats { display:flex; gap:3.5rem; margin-top:4.5rem; flex-wrap:wrap; animation:fadeUp 0.7s 0.4s ease both; }
@@ -206,6 +206,11 @@
     .hero-inner { grid-template-columns:1fr; gap:0; }
   }
 .feat-name a:hover,.fc h3 a:hover,.hc h3 a:hover,.hc h4 a:hover,.svc-card h3 a:hover{text-decoration:underline;}
+  .home-faq { max-width:900px; margin-top:2.5rem; }
+  .home-faq .q { border-top:1px solid rgba(0,212,170,0.14); padding:1.1rem 0; }
+  .home-faq .q h3 { font-size:1.02rem; font-weight:700; margin-bottom:0.4rem; }
+  .home-faq .q p { font-size:0.93rem; color:rgba(245,250,249,0.62); line-height:1.75; font-weight:300; }
+  .home-faq .q a { color:var(--teal); }
 </style>
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-87TYPWRP4N"></script>
@@ -234,10 +239,17 @@
         "@type": "PostalAddress",
         "streetAddress": "24/32 Turiwhatu Street",
         "addressLocality": "Papamoa",
-        "addressRegion": "Tauranga",
+        "addressRegion": "Bay of Plenty",
         "addressCountry": "NZ"
       },
-      "areaServed": "New Zealand"
+      "areaServed": "New Zealand",
+      "founder": {
+        "@type": "Person",
+        "name": "Vanessa Crafts",
+        "sameAs": [
+          "https://www.linkedin.com/in/vanessa-crafts-74143198/"
+        ]
+      }
     },
     {
       "@type": "WebSite",
@@ -265,14 +277,78 @@
       }
     },
     {
-      "@type": "SoftwareApplication",
+      "@type": "Service",
       "name": "HARM",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
+      "serviceType": "Health and safety consulting",
+      "areaServed": "New Zealand",
       "url": "https://oshe.co.nz/harm-services.html",
       "description": "Specialist health and safety consultancy for New Zealand organisations, led by Vanessa Crafts, available without a full-time hire.",
       "provider": {
         "@id": "https://oshe.co.nz/#organization"
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is OSHE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OSHE is health and safety software made in New Zealand. It covers contractor management, QR site sign in, site safety plans (SSSPs), inductions and training, incident reporting, hazard and safety registers, task analyses, and a mobile app that works offline. See SSSP templates, contractor management and H&S software for builders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is HARM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HARM is the consulting side of OSHE. It offers prequalification support, H&S audits and reviews, policy and procedure writing, general H&S support, and 1:1 sessions with Vanessa Crafts. No retainer needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is OSHE for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "New Zealand businesses that want to run their own health and safety system. That includes builders, trades, and any business that engages contractors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do workers need to download an app to sign in to site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Workers, contractors and visitors scan the site QR code with their phone camera and sign in on a web page. First timers complete the site induction in the same flow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does OSHE work without internet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The OSHE mobile app saves forms, task analyses and tasks on the phone when there is no signal, and syncs them when you are back online."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does OSHE make us compliant with HSWA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OSHE gives you the tools to manage risks, keep records and work with your contractors, which are core parts of the Health and Safety at Work Act 2015. Software on its own does not make a business compliant. If you want an expert to check your setup, HARM can help."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does OSHE cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Launch is $179 per month plus GST for up to 10 users. Growth is $249 per month plus GST for up to 20 users. Enterprise is priced by negotiation. Every plan starts with a free, no obligation demo."
       }
     }
   ]
@@ -358,14 +434,14 @@
   <div class="hero-grid"></div>
   <div class="hero-inner">
     <div>
-      <div class="hero-tag">Health &amp; Safety Software + Consulting · New Zealand</div>
-      <h1>
+      <h1 class="hero-tag">Health and Safety Software NZ, plus expert consulting</h1>
+      <p class="hero-headline">
         Your safety system<br>
         is B.S.<br>
         <span class="accent">Let's fix that.</span>
-      </h1>
+      </p>
       <p class="hero-sub">
-        OSHE is a DIY H&amp;S platform you can run yourself. HARM is for when you want an expert in your corner. Use one, use both — either way, H&amp;S gets sorted.
+        OSHE is a DIY H&amp;S platform you can run yourself. HARM is for when you want an expert in your corner. Use one or use both. Either way, H&amp;S gets sorted.
       </p>
       <div class="hero-actions">
         <a href="#" class="btn btn-teal js-open-demo">Book Free Demo</a>
@@ -373,7 +449,7 @@
         <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
       </div>
       <div class="hero-stats">
-        <div class="stat"><h3 class="count" data-target="80" data-suffix="%">0%</h3><p>increase in incident reporting</p></div>
+        <div class="stat"><h3 class="count" data-target="80" data-suffix="%">0%</h3><p>on average, increase in incidents reported</p></div>
         <div class="stat"><h3 class="count" data-target="30" data-suffix="+">0+</h3><p>years combined H&amp;S experience</p></div>
         <div class="stat"><h3 class="count-text">Free</h3><p>no-obligation demo</p></div>
       </div>
@@ -382,7 +458,7 @@
       <div class="iphone">
         <div class="iphone-notch"></div>
         <div class="iphone-screen">
-          <img src="images/app-screenshot.png" alt="OSHE App">
+          <img src="images/app-screenshot.png" alt="OSHE health and safety app open on a phone">
         </div>
         <div class="iphone-btn"></div>
       </div>
@@ -408,7 +484,7 @@
   <h2 class="tt">Everything your site needs.<br>Nothing it doesn't.</h2>
   <p class="sub">9 core features. One platform. Works on any device and simple enough that your team will use it from day one.</p>
   <div class="feat-grid">
-    <div class="fc"><div class="fc-num">01</div><h3><a href="services/contractor-management.html" style="color:inherit;text-decoration:none;">Contractor Management</a></h3><p>Pre-qual applications, insurance tracking, renewal alerts, and a full contractor register.</p></div>
+    <div class="fc"><div class="fc-num">01</div><h3><a href="services/contractor-management-software-nz.html" style="color:inherit;text-decoration:none;">Contractor Management</a></h3><p>Prequalification links, insurance and accreditation expiry tracking, and a full contractor register.</p></div>
     <div class="fc"><div class="fc-num">02</div><h3><a href="services/qr-sign-in.html" style="color:inherit;text-decoration:none;">QR Sign In and Out</a></h3><p>Workers and visitors scan a QR code with their phone camera. No app needed for site sign-in.</p></div>
     <div class="fc"><div class="fc-num">03</div><h3><a href="services/incident-reporting.html" style="color:inherit;text-decoration:none;">Incident Reporting</a></h3><p>Workers flag incidents at sign-out. The right people notified instantly. Actions tracked to closure.</p></div>
   </div>
@@ -420,18 +496,18 @@
   <p style="font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--grey);text-align:center;margin-bottom:2rem;">Trusted By</p>
   <div style="overflow:hidden;width:100%;position:relative;">
     <div style="display:flex;align-items:center;gap:4rem;animation:scroll 20s linear infinite;width:max-content;">
-      <img src="images/logo-1.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-3.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-4.png.jpg" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-5.png.svg" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-6.png.webp" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-7.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-1.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-3.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-4.png.jpg" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-5.png.svg" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-6.png.webp" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
-      <img src="images/logo-7.png.png" alt="Client" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-1.png.png" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-3.png.png" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-4.png.jpg" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-5.png.svg" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-6.png.webp" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-7.png.png" alt="OSHE client logo" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-1.png.png" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-3.png.png" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-4.png.jpg" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-5.png.svg" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-6.png.webp" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
+      <img src="images/logo-7.png.png" alt="" aria-hidden="true" style="height:40px;width:auto;opacity:0.6;filter:grayscale(100%) brightness(2);">
     </div>
   </div>
 </div>
@@ -517,6 +593,19 @@
   <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
     <a href="book.html" class="btn btn-teal">Book an Onboarding Call</a>
     <a href="book.html" class="btn btn-outline">Book a Demo</a>
+  </div>
+</div>
+<div class="sec dark2" id="faq" style="border-top:1px solid rgba(0,212,170,0.08);">
+  <span class="stag">Questions</span>
+  <h2 class="tt">Health and safety software NZ: common questions</h2>
+  <div class="home-faq">
+    <div class="q"><h3>What is OSHE?</h3><p>OSHE is health and safety software made in New Zealand. It covers contractor management, QR site sign in, site safety plans (SSSPs), inductions and training, incident reporting, hazard and safety registers, task analyses, and a mobile app that works offline. See <a href="services/sssp-templates-nz.html">SSSP templates</a>, <a href="services/contractor-management-software-nz.html">contractor management</a> and <a href="services/health-and-safety-software-for-builders-nz.html">H&amp;S software for builders</a>.</p></div>
+    <div class="q"><h3>What is HARM?</h3><p>HARM is the consulting side of OSHE. It offers prequalification support, H&amp;S audits and reviews, policy and procedure writing, general H&amp;S support, and 1:1 sessions with Vanessa Crafts. No retainer needed.</p></div>
+    <div class="q"><h3>Who is OSHE for?</h3><p>New Zealand businesses that want to run their own health and safety system. That includes builders, trades, and any business that engages contractors.</p></div>
+    <div class="q"><h3>Do workers need to download an app to sign in to site?</h3><p>No. Workers, contractors and visitors scan the site QR code with their phone camera and sign in on a web page. First timers complete the site induction in the same flow.</p></div>
+    <div class="q"><h3>Does OSHE work without internet?</h3><p>Yes. The OSHE mobile app saves forms, task analyses and tasks on the phone when there is no signal, and syncs them when you are back online.</p></div>
+    <div class="q"><h3>Does OSHE make us compliant with HSWA?</h3><p>OSHE gives you the tools to manage risks, keep records and work with your contractors, which are core parts of the Health and Safety at Work Act 2015. Software on its own does not make a business compliant. If you want an expert to check your setup, HARM can help.</p></div>
+    <div class="q"><h3>How much does OSHE cost?</h3><p>Launch is $179 per month plus GST for up to 10 users. Growth is $249 per month plus GST for up to 20 users. Enterprise is priced by negotiation. Every plan starts with a free, no obligation demo.</p></div>
   </div>
 </div>
 <div class="cta-wrap">
